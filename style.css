@@ -56,16 +56,15 @@
   display: flex;
   align-items: center;
   margin: auto 0%;
-  border: 1.5px solid #9e08fa;
 }
 .btn a {
-  padding: 0 40px;
+  padding: 15px 40px;
   text-decoration: none;
   text-align: center;
   color: #000;
-  font-size: 1.35rem;
+  font-size: 1.3rem;
   font-family: "Be Vietnam Regular";
-  background: #08faeb;
+  background: linear-gradient(30deg, #1a1a1a38, rgb(0, 255, 255));
   cursor: pointer;
   font-weight: 700;
   border-radius: 10px;
@@ -562,7 +561,6 @@
 .map-page {
   width: 100%;
   /* height: 50vh; */
-  background-color: #08faeb;
   display: flex;
 }
 .sec-div {
