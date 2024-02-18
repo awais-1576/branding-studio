@@ -1,0 +1,675 @@
+/*don't be so quick to judge me.after all you only see what i choose to show you.*/
+
+@font-face {
+  font-family: "Be Vietnam Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Be Vietnam Medium"),
+    url("./img/font/BeVietnam-Regular.woff") format("woff");
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: #fff;
+  display: flex;
+  width: 100%;
+}
+
+.logo {
+  margin: 20px 70px;
+}
+.logo h2 {
+  font-size: 3rem;
+  font-family: "Be Vietnam Regular";
+}
+.logo a {
+  text-decoration: none;
+  color: black;
+}
+.list-items {
+  width: 60%;
+}
+.list-items ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 1.5rem;
+}
+.list-items ul li {
+  list-style: none;
+  font-size: 1.2rem;
+  font-family: "Be Vietnam Regular";
+}
+.list-items ul li a {
+  text-decoration: none;
+  color: black;
+  transition: 0.1s;
+}
+.list-items ul li a:hover {
+  border-bottom: 2px solid #000;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  margin: auto 0%;
+  border: 1.5px solid #9e08fa;
+}
+.btn a {
+  padding: 0 40px;
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+  font-size: 1.35rem;
+  font-family: "Be Vietnam Regular";
+  background: #08faeb;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+.btn a:hover {
+  color: #fff;
+  border: none;
+  background: linear-gradient(70deg, #08faeb, #9e08fa);
+}
+.main-div::before {
+  content: "";
+  z-index: -1;
+  filter: brightness(25%);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.main-div {
+  background-color: #202020;
+  width: 100%;
+  height: 89.5vh;
+  position: relative;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home h4 {
+  color: #fff;
+  font-style: italic;
+  margin-top: 10%;
+  letter-spacing: 2px;
+  font-size: 1.3rem;
+  font-family: "Be Vietnam Regular";
+}
+.home h1 {
+  color: #fff;
+  font-size: 5rem;
+  margin-top: 2%;
+  font-family: "Be Vietnam Regular";
+}
+.home img {
+  margin-top: 3%;
+}
+.home p {
+  color: #fff;
+  margin-top: 6%;
+  font-size: 1.2rem;
+  width: 50%;
+  text-align: center;
+  font-family: "Be Vietnam Regular";
+}
+.home a image:hover {
+  width: 7%;
+  height: 2%;
+}
+.features {
+  width: 100%;
+  margin-bottom: 3%;
+}
+.features h2 {
+  font-size: 2.75rem;
+  font-family: "Be Vietnam Regular";
+  margin-top: 5%;
+  text-align: center;
+}
+.our-features {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 5% 0%;
+  cursor: pointer;
+}
+.our-features img {
+  margin: 0% auto;
+  display: block;
+}
+.our-features h3 {
+  text-align: center;
+  font-family: "Be Vietnam Regular";
+  margin: 10% 0 0 0;
+  color: #000000;
+}
+.our-features p {
+  text-align: center;
+  justify-content: center;
+  margin: 10% 3% 0 3%;
+  color: #999999;
+  text-decoration: none;
+  font-family: "Be Vietnam Regular";
+}
+.box1,
+.box2,
+.box3,
+.box4 {
+  width: 15%;
+  margin-left: 2%;
+  overflow: hidden;
+}
+.main-page {
+  background-color: #f3f3f3;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.text-div {
+  width: 50%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.more {
+  width: 55%;
+  height: 45%;
+}
+.more h1 {
+  font-size: 2.24rem;
+  color: #000000;
+  line-height: 1.3;
+  word-break: break-word;
+  font-family: "Be Vietnam Regular";
+}
+.more p {
+  font-size: 1.1rem;
+  color: #999999;
+  line-height: 1.6;
+  margin-bottom: 5%;
+  font-family: "Be Vietnam Regular";
+}
+.more a {
+  color: #000000;
+  text-decoration: none;
+  border-bottom: 1px solid #999999;
+  font-size: 1.1rem;
+  font-family: "Be Vietnam Regular";
+  padding-top: 70px;
+}
+.img-div {
+  width: 50%;
+}
+.img-div img {
+  width: 100%;
+  height: 100%;
+}
+.main-achie {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+}
+.achie {
+  margin-top: 3%;
+}
+.achie h3 {
+  color: #999999;
+  text-align: center;
+  font-weight: normal;
+  font-family: "Be Vietnam Regular";
+}
+.achie h1 {
+  color: #000000;
+  text-align: center;
+  margin: 2% auto;
+  font-size: 2.24rem;
+  width: 35%;
+  font-weight: 700;
+  font-family: "Be Vietnam Regular";
+}
+.boxs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.boxs h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: center;
+}
+.boxs h3 {
+  font-size: 1.4rem;
+  line-height: 1.3;
+  text-align: center;
+  margin: 5% 0;
+  font-family: "Be Vietnam Regular";
+}
+.boxs p {
+  color: #999999;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: center;
+  font-family: "Be Vietnam Regular";
+}
+.fixed {
+  background: url("./img/bg3.jpg"), #00000076;
+  background-blend-mode: overlay;
+  background-position: 0 -200px;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 60vh;
+}
+.two-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  vertical-align: 50%;
+  transform: translate(0, 50%);
+}
+.text {
+  width: 40%;
+}
+.text h1 {
+  color: white;
+  font-family: "Be Vietnam Regular";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.text p {
+  color: #e5e5e5;
+  font-family: "Be Vietnam Regular";
+  font-size: 1.1rem;
+  line-height: 2;
+}
+.text a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.9rem;
+  line-height: 1.8;
+  font-family: "Be Vietnam Regular";
+  transition: all 0.1s;
+}
+.text a:hover {
+  color: #202020;
+  border-bottom: 2px solid #202020;
+}
+.table {
+  width: 100%;
+  height: 60vh;
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.pri-table {
+  transform: translate(0px, 0px);
+}
+.pri-table h2 {
+  font-family: "Be Vietnam Regular";
+  font-size: 2.4rem;
+  line-height: 1.3;
+  color: #fff;
+}
+.sec-boxs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 3%;
+}
+.sec-boxs h2 {
+  text-align: center;
+  font-family: "Be Vietnam Regular";
+  font-size: 1.4rem;
+  line-height: 1.3;
+  margin: 5% 0;
+  z-index: 2;
+}
+.sec-boxs h1 {
+  text-align: center;
+  font-size: 3.4rem;
+  line-height: 1.5;
+  margin: 5% 0;
+}
+.sec-boxs p {
+  text-align: center;
+  color: #999999;
+  font-weight: normal;
+  font-family: "Be Vietnam Regular";
+  font-size: 0.9rem;
+  line-height: 1.8;
+  margin: 5% 0;
+  z-index: -1;
+}
+.sec-box1,
+.sec-box2,
+.sec-box3 {
+  width: 18%;
+  height: 35vh;
+  background-color: #ffffff;
+  z-index: 2;
+}
+
+.span-1 {
+  font-size: 1.8rem;
+}
+.span-2 {
+  font-size: 1rem;
+  font-style: italic;
+  font-family: "Be Vietnam Regular";
+}
+.sec-boxs button {
+  padding: 5% 9%;
+  margin: 3% auto;
+  display: block;
+  cursor: pointer;
+  font-family: "Be Vietnam Regular";
+
+  background: none;
+  border: 2px solid #333333;
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+.sec-boxs button:hover {
+  color: #ffffff;
+  background-color: #333333;
+}
+.extra {
+  width: 100%;
+  height: 20vh;
+  background-color: #f9f9f9;
+  position: absolute;
+  top: 70%;
+  z-index: 1;
+}
+.team {
+  width: 100%;
+  height: 80vh;
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.team-page h1 {
+  color: #fff;
+  font-family: "Be Vietnam Regular";
+  font-size: 2.4rem;
+  line-height: 1.3;
+}
+.team-img {
+  width: 60%;
+  height: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.team-img img {
+  width: 30%;
+  height: 70%;
+}
+.test {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.testi h1 {
+  font-family: "Be Vietnam Regular";
+  font-size: 2.4rem;
+  line-height: 1.3;
+  color: #111111;
+  margin-bottom: 30%;
+  font-weight: normal;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+}
+.card1 {
+  width: 30%;
+  height: 30vh;
+  background: #f3f3f3;
+  display: flex;
+}
+.card-img {
+  width: 35%;
+  height: 30%;
+  margin: 3% 0 0 3%;
+}
+.card-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+.card1 h1 {
+  color: #111111;
+  margin: 5% 0 0 3%;
+  width: 30%;
+  font-family: "Be Vietnam Regular";
+  font-size: 1.4rem;
+  line-height: 1.3;
+  font-weight: normal;
+  transition: all 0.3s ease-in-out;
+}
+.card1 h1:hover {
+  color: #5555cd;
+}
+.card1 h6 {
+  margin: 2% 0 0 3%;
+  color: #999999;
+  font-size: 0.9rem;
+  line-height: 1.8;
+  font-family: "Be Vietnam Regular";
+  letter-spacing: 1.3px;
+  font-weight: 500;
+}
+.card1 p {
+  color: #555555;
+  font-size: 1.1rem;
+  line-height: 2;
+  font-family: "Be Vietnam Regular";
+  font-weight: normal;
+  font-style: italic;
+  width: 119%;
+  margin: 10% -16%;
+}
+.touch-page {
+  width: 100%;
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.touch h1 {
+  margin: 10% 0 0 0;
+  color: #fff;
+  font-family: "Be Vietnam Regular";
+  font-size: 2.4rem;
+  text-align: center;
+  line-height: 1.3;
+  font-weight: normal;
+}
+.touch p {
+  color: #999999;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 2;
+  font-family: "Be Vietnam Regular";
+  width: 60%;
+  margin: 5% auto;
+  text-align: center;
+}
+.email-btn {
+  width: 100%;
+}
+.email-btn input {
+  padding: 1rem;
+  background-color: #ffffff;
+  height: 60px;
+  width: 75%;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-family: "Be Vietnam Regular";
+}
+.email-btn a {
+  background-color: #999999;
+  padding: 1.17rem 2rem 1.17rem 2rem;
+  margin-left: -4px;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 1.1px;
+  font-family: "Be Vietnam Regular";
+  transition: all 0.3s ease-in-out;
+}
+.email-btn a:hover {
+  color: #ffffff;
+  background-color: #5555cd;
+}
+.icons {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10% auto;
+}
+.map-page {
+  width: 100%;
+  /* height: 50vh; */
+  background-color: #08faeb;
+  display: flex;
+}
+.sec-div {
+  display: flex;
+  width: 40%;
+  margin-top: 2%;
+  /* height: 50vh; */
+  /* align-items: end; */
+  justify-content: right;
+}
+.map-text {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+}
+.map-text h1 {
+  font-family: "Be Vietnam Regular";
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 1.3;
+  width: 65%;
+  color: #111111;
+  font-family: "Be Vietnam", sans-serif;
+  margin: 3% 0;
+}
+.map-text p {
+  font-size: 1.1rem;
+  line-height: 2;
+  color: #999999;
+  width: 65%;
+  font-family: "Be Vietnam", sans-serif;
+  margin: 2% 0;
+}
+.map-btn {
+  /* border: 2px solid red; */
+  width: 65%;
+}
+.map-text a {
+  text-decoration: none;
+  font-family: "Be Vietnam", sans-serif;
+  font-size: 1.1rem;
+  line-height: 2;
+  letter-spacing: 1px;
+  color: #232323;
+  transition: all 0.2s;
+}
+.map-btn a:hover {
+  border-bottom: 2px solid;
+}
+.map {
+  width: 60%;
+  height: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: colu; */
+  align-items: center;
+}
+.map ul {
+  display: flex;
+  flex-direction: column;
+}
+.map iframe {
+  width: 70%;
+  height: 60%;
+  margin-top: 5%;
+}
+.map-list {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+.map-list ul li {
+  list-style: none;
+  font-size: 1rem;
+  line-height: 1.1;
+  color: #999999;
+  font-family: "Be Vietnam", sans-serif;
+  margin-top: 5%;
+}
+.map-list ul h4 {
+  font-family: "Be Vietnam Regular";
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: #111111;
+  font-family: "Be Vietnam", sans-serif;
+}
+.map-list ul li a {
+  text-decoration: none;
+  color: #999999;
+}
+.footer {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #202020;
+}
+.footer-icons {
+  width: 15%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.right-area {
+  color: white;
+}
